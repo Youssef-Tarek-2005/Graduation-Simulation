@@ -1,0 +1,28 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Logs
+*.log
+
+# Large datasets (>100MB exceeds GitHub push limit)
+# Note: IoT Network Intrusion Dataset.csv.zip (50MB) is preserved and tracked
+data/IoT Network Intrusion Dataset.csv
+IoT Network Intrusion Dataset.csv/
+
+# IDE & OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Diagnostics
+diag.cjs
